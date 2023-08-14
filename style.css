@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.headclass{
+height: 5rem;
+background-color: black;
+display: flex;
+align-items: center;
+}
+
+.color-section{
+height: 3rem;
+width: 18rem;
+background-color: aliceblue;
+margin-left: 5rem;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.color{
+    height: 2rem;
+    width: 3rem;
+    background-color: red;
+}
+.red{
+background-color: red;
+}
+.blue{
+background-color: blue;
+}
+.green{
+background-color: green;
+}
+.black{
+background-color: black;
+}
+
+.action-bar{
+    height: 3rem;
+    width: 8rem;
+    background-color: aliceblue;
+    margin-left: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.remove-btn{
+font-size: 1.5rem;
+}
+.add-btn{
+    font-size: 1.75rem;
+}
